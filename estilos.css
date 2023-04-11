@@ -1,6 +1,5 @@
 body{
     color: black;
-    text-align: left;
     font-family: Arial, Helvetica, sans-serif, monospace;
     font-size: 16px;
     margin: 0;
@@ -10,8 +9,6 @@ body{
     width: 100%;
     height: 40px;
     background-color: blue;
-    
-    
 }
 #cabecera span:nth-child(1){
     font-size: 20px;
@@ -19,8 +16,8 @@ body{
 }
 #contenedor-general{
     width: 70%;
+    height: 100%;
     padding: 2em;
-    text-align: left;
     border: 1px solid darkslateblue;
     margin: 0 auto;
     padding: 0;
@@ -32,6 +29,7 @@ body{
     padding: 20px;
     align-items: center;
 }   
+
 
 #contenido-del-blog img{
     width: 500px;
@@ -52,5 +50,15 @@ body{
 }
 
 #contendor-imagen a{
+    align-self: flex-start;
+}
+#contenido-del-blog ol{
+    align-self: flex-start;
+}
+
+#contenido-del-blog p{
+    align-self: flex-start;
+}
+#contenido-del-blog ul{
     align-self: flex-start;
 }
